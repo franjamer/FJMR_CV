@@ -1,4 +1,9 @@
 
+*{
+    margin: 0;
+    padding: 0;
+
+}
 .cabecera{
     
     /* background-color:burlywood ; */
@@ -12,18 +17,20 @@
     
 }
 
-#cv{
-    background-color: burlywood; 
-    font-size: 36px ;
+.cabecera, .cabecera2{
+    font-family: Inter;
+    font-size: 24px ;
     text-align: center;
     vertical-align: top;
-    border-bottom: #000000;
-    border-style: solid;
+    Color: #2a5978;
     /* border-radius: 5%; */
     padding:5px;
     margin:15px,10px,10px,15px;
     border-width: 2px;
     
+}
+.cabecera2{
+    color:black;
 }
 
 .marco_i_t {
